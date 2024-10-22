@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a350be128bd42584fb9b31f8397eb00e, type: 3}
+  m_Name: RSH 12
+  m_EditorClassIdentifier: 
+  gunName: RSH 12
+  gunPrefab: {fileID: 6796132320306090985, guid: 86dd684ed91251e4080591a3b1476654, type: 3}
+  gunType: 0
+  gunDamage: 26
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 448
+  fireRate: 2.5
+  magSize: 8
+  reloadTime: 0.9
+  bulletSpeed: 45
+  maxShootDistance: 50
+  bulletTrail: {fileID: 7562802449221017134, guid: c98f41064cfeb90498ce6cfcec4a8baa, type: 3}
+  snappiness: 30
+  returnSpeed: 25
+  recoilX: 20
+  recoilY: 8
+  recoilZ: 5
+  kickbackX: 0.1
+  kickbackY: 0.1
+  kickbackZ: 0.2

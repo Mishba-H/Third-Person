@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5904e6002837c41b3ea66001b17a36, type: 3}
+  m_Name: RobotSet
+  m_EditorClassIdentifier: 
+  setName: RobotSet
+  gloveR: {fileID: 7432569304720548034, guid: e880417c61d1cf9468c2f81ee11e1f11, type: 3}
+  gloveL: {fileID: 6080765165832046157, guid: 70c26248264abe244a1d9fefcb01323a, type: 3}
+  bootR: {fileID: 5474517582208671718, guid: ccb75fec5a620d141adbfa6debd7d137, type: 3}
+  bootL: {fileID: 7013322454655147977, guid: a06ef493f48475241bfd0035c8dee1fc, type: 3}
+  baseDamage: 100
+  attackRange: 1
+  comboSOs:
+  - {fileID: 11400000, guid: 7b9b97be0c953ce4083edebe54418802, type: 2}
+  - {fileID: 11400000, guid: 37fc58a0f45883a4eb1de0c723d7780e, type: 2}
+  - {fileID: 11400000, guid: 3e714196f31d75c46a4fc27f35f93e57, type: 2}
+  - {fileID: 11400000, guid: acbea00b5f22bc44eae4528bd93d680e, type: 2}

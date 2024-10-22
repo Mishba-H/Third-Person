@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd1470945f73bc4b8f3059ec0a0ddb7, type: 3}
+  m_Name: ArtoriasSword
+  m_EditorClassIdentifier: 
+  weaponName: ArtoriasSword
+  weaponPrefab: {fileID: 5046396730477488923, guid: cacf4bd2e5a42174fa18203db2092ec3, type: 3}
+  weaponType: 0
+  baseDamage: 100
+  attackRange: 1
+  comboSOs:
+  - {fileID: 11400000, guid: 5ffd0dd20cb2eb8469aee2fb95d3d676, type: 2}
+  - {fileID: 11400000, guid: b77720d3fc3f9b34389a0a5b300b4b92, type: 2}
+  - {fileID: 11400000, guid: 4e4747e1d2f17834e818ee7c587f96dd, type: 2}
